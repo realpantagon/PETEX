@@ -70,11 +70,11 @@ export default function Home() {
       <h1 className="PeterExchange">PETER EXCHANGE</h1>
       <table>
         <thead>
-          <tr>
-            <th></th>
-            <th style={{ fontSize: "50px" }}></th>
-            <th style={{ fontSize: "50px" }}>Currency</th>
-            <th style={{ fontSize: "50px" }}>Buying Rate</th>
+          <tr style={{  backgroundColor: "navy"}}>
+            <th style={{  backgroundColor: "#B0DAFF"}}></th>
+            <th style={{ fontSize: "50px" ,color:"navy",backgroundColor: "#B0DAFF"}}></th>
+            <th style={{ fontSize: "50px" ,color:"navy",backgroundColor: "#B0DAFF"}}>Currency</th>
+            <th style={{ fontSize: "50px" ,color:"navy",backgroundColor: "#B0DAFF"}}>Buying Rate</th>
           </tr>
         </thead>
         <tbody className="table-body">
